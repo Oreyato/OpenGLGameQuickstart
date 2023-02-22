@@ -131,7 +131,32 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Assets.cpp" />
+    <ClCompile Include="Engine\Input\InputManager.cpp" />
+    <ClCompile Include="Engine\Maths\Matrix4.cpp" />
+    <ClCompile Include="Engine\Maths\Matrix4Row.cpp" />
+    <ClCompile Include="Engine\Maths\Quaternion.cpp" />
+    <ClCompile Include="Engine\Maths\Vector2.cpp" />
+    <ClCompile Include="Engine\Maths\Vector3.cpp" />
+    <ClCompile Include="Engine\Maths\Vector4.cpp" />
+    <ClCompile Include="Engine\Shader.cpp" />
+    <ClCompile Include="Game\Game.cpp" />
+    <ClCompile Include="Game\Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Assets.h" />
+    <ClInclude Include="Engine\Game.h" />
+    <ClInclude Include="Engine\Input\InputManager.h" />
+    <ClInclude Include="Engine\Input\InputState.h" />
+    <ClInclude Include="Engine\Maths\Maths.h" />
+    <ClInclude Include="Engine\Maths\Matrix4.h" />
+    <ClInclude Include="Engine\Maths\Matrix4Row.h" />
+    <ClInclude Include="Engine\Maths\Quaternion.h" />
+    <ClInclude Include="Engine\Maths\Vector2.h" />
+    <ClInclude Include="Engine\Maths\Vector3.h" />
+    <ClInclude Include="Engine\Maths\Vector4.h" />
+    <ClInclude Include="Engine\Scene.h" />
+    <ClInclude Include="Engine\Shader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

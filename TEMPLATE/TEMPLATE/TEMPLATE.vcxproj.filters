@@ -1,22 +1,104 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
+    <Filter Include="Engine">
+      <UniqueIdentifier>{76602610-5290-487c-91eb-2fa67eb571fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input">
+      <UniqueIdentifier>{685dd13a-bac1-412e-874f-dbe4d725eed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{10863b6c-a3b9-4b9b-8994-976534c848d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Source Files">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Header Files">
+    <Filter Include="Game\Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Engine\Maths">
+      <UniqueIdentifier>{d12ee2bf-a314-4213-863a-ae389c64420b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Maths\Vectors">
+      <UniqueIdentifier>{536fbdfb-de69-493e-9401-44bfd0edff6a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Engine\Input\InputManager.cpp">
+      <Filter>Engine\Input</Filter>
     </ClCompile>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Main.cpp">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Shader.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Maths\Matrix4.cpp">
+      <Filter>Engine\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Maths\Vector2.cpp">
+      <Filter>Engine\Maths\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Maths\Vector3.cpp">
+      <Filter>Engine\Maths\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Maths\Quaternion.cpp">
+      <Filter>Engine\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Maths\Vector4.cpp">
+      <Filter>Engine\Maths\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Maths\Matrix4Row.cpp">
+      <Filter>Engine\Maths</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Scene.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Game.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input\InputManager.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input\InputState.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Shader.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Maths\Maths.h">
+      <Filter>Engine\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Maths\Matrix4.h">
+      <Filter>Engine\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Maths\Vector2.h">
+      <Filter>Engine\Maths\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Maths\Vector3.h">
+      <Filter>Engine\Maths\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Maths\Quaternion.h">
+      <Filter>Engine\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Maths\Vector4.h">
+      <Filter>Engine\Maths\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Maths\Matrix4Row.h">
+      <Filter>Engine\Maths</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
